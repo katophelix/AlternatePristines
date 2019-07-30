@@ -1,0 +1,130 @@
+.logo {
+    position: relative;
+    top: -0.5em;
+}
+
+.logo a,
+.logo a:visited {
+    text-decoration: none;
+    color: #746A94;
+}
+
+.logo img {
+    height: 2em;
+    position: relative;
+    top: 0.55em;
+    margin-right: 0.3em;
+}
+
+body {
+    background-color: #49B8E0;
+    color: #746A94;
+}
+
+.nav,
+[role~=navigation] {
+    clear: both;
+    background: #A5DDB8;
+    color: #746A94;
+    border: 1px solid #c6c6c6;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+.nav .nav .gap-top
+ {
+    clear: both;
+    background: #A5DDB8;
+    color: #746A94;
+    border: 1px solid #c6c6c6;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+a:not(.noicon)[href^="mailto:"]:before {
+    content: "\f0e0";
+}
+a:not(.noicon)[href^="https:"]:after {
+    content: "\f023";
+}
+.nav a,
+.nav a:visited,
+.nav button {
+    background: #A5DDB8;
+    color: #746A94;
+    cursor: pointer;
+    padding: .25em 1em;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 1.5;
+    border: 0;
+    border-top: 1px solid #c6c6c6;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+
+h1 {
+    color: #746A94;
+}
+
+h4 {
+    color: #746A94;
+}
+.tabs>ul li, [role~=tab] {
+    margin-bottom: -1px;
+    padding: .25em 1em;
+    background: #A5DDB8;
+    border: 1px solid #b9b9b9;
+    color: #746A94;
+    font-family: Helvetica,Arial,Geneva,sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 1.5;
+    width: auto;
+    height: auto;
+    text-align: center;
+    -o-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.tabs>ul li:hover, [role~=tab] {
+    margin-bottom: -1px;
+    padding: .25em 1em;
+    background: yellow;
+    border: 1px solid #b9b9b9;
+    color: #746A94;
+    font-family: Helvetica,Arial,Geneva,sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 1.5;
+    width: auto;
+    height: auto;
+    text-align: center;
+    -o-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.tabs>ul li.active {
+    background: #A5DDB8;
+    text-decoration: none;
+    color: #746A94;
+    border-bottom-color: #fff;
+    -webkit-transition: none;
+    transition: none;
+}
+
+.tabs>div, [role~=tabpanel] {
+    display: none;
+    background: #A5DDB8;
+    border: 1px solid #b9b9b9;
+    color: #746A94;
+    -o-border-radius: 0 4px 4px;
+    border-radius: 0 4px 4px;
+}
+.box {
+    background: #A5DDB8;
+    color: #746A94;
+    border: 1px solid #ddd;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
